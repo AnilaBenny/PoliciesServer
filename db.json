@@ -1,0 +1,224 @@
+{
+  "policies": [
+    {
+      "id": 1,
+      "externalPolicyId": "EXT-POL-001",
+      "policyNumber": "POL-2024-00001",
+      "agencyId": 1,
+      "lobCode": "AUTO",
+      "premiumAmount": 1200.00,
+      "policyStatus": "active",
+      "effectiveDate": "2024-01-01T00:00:00Z",
+      "expirationDate": "2025-01-01T00:00:00Z",
+      "sourcePayload": {
+        "sourceSystem": "PolicyCenter",
+        "rawPolicyType": "Personal Auto",
+        "syncVersion": "v1.2",
+        "additionalInfo": {
+          "vehicleCount": 2,
+          "driverCount": 3
+        }
+      },
+      "createdAt": "2024-01-15T08:00:00Z",
+      "updatedAt": "2024-06-10T12:30:00Z"
+    },
+    {
+      "id": 2,
+      "externalPolicyId": "EXT-POL-002",
+      "policyNumber": "POL-2024-00002",
+      "agencyId": 1,
+      "lobCode": "HOME",
+      "premiumAmount": 2500.00,
+      "policyStatus": "active",
+      "effectiveDate": "2024-02-01T00:00:00Z",
+      "expirationDate": "2025-02-01T00:00:00Z",
+      "sourcePayload": {
+        "sourceSystem": "PolicyCenter",
+        "rawPolicyType": "Homeowners",
+        "syncVersion": "v1.2",
+        "additionalInfo": {
+          "propertyType": "Single Family",
+          "coverageAmount": 450000
+        }
+      },
+      "createdAt": "2024-02-01T09:00:00Z",
+      "updatedAt": "2024-06-11T10:00:00Z"
+    },
+    {
+      "id": 3,
+      "externalPolicyId": "EXT-POL-003",
+      "policyNumber": "POL-2024-00003",
+      "agencyId": 2,
+      "lobCode": "LIFE",
+      "premiumAmount": 850.00,
+      "policyStatus": "active",
+      "effectiveDate": "2024-02-15T00:00:00Z",
+      "expirationDate": "2034-02-15T00:00:00Z",
+      "sourcePayload": {
+        "sourceSystem": "PolicyCenter",
+        "rawPolicyType": "Term Life",
+        "syncVersion": "v1.1",
+        "additionalInfo": {
+          "termYears": 10,
+          "beneficiaryCount": 2
+        }
+      },
+      "createdAt": "2024-02-20T09:15:00Z",
+      "updatedAt": "2024-06-11T11:00:00Z"
+    },
+    {
+      "id": 4,
+      "externalPolicyId": "EXT-POL-004",
+      "policyNumber": "POL-2024-00004",
+      "agencyId": 2,
+      "lobCode": "HLTH",
+      "premiumAmount": 3200.00,
+      "policyStatus": "cancelled",
+      "effectiveDate": "2024-01-01T00:00:00Z",
+      "expirationDate": "2024-06-01T00:00:00Z",
+      "sourcePayload": {
+        "sourceSystem": "PolicyCenter",
+        "rawPolicyType": "Health Insurance",
+        "syncVersion": "v1.1",
+        "additionalInfo": {
+          "planType": "PPO",
+          "membersCount": 4
+        }
+      },
+      "createdAt": "2024-02-22T10:30:00Z",
+      "updatedAt": "2024-06-01T08:00:00Z"
+    },
+    {
+      "id": 5,
+      "externalPolicyId": "EXT-POL-005",
+      "policyNumber": "POL-2024-00005",
+      "agencyId": 3,
+      "lobCode": "COMM",
+      "premiumAmount": 7500.00,
+      "policyStatus": "active",
+      "effectiveDate": "2024-03-01T00:00:00Z",
+      "expirationDate": "2025-03-01T00:00:00Z",
+      "sourcePayload": {
+        "sourceSystem": "PolicyCenter",
+        "rawPolicyType": "Commercial General Liability",
+        "syncVersion": "v1.0",
+        "additionalInfo": {
+          "businessType": "Retail",
+          "employeeCount": 25
+        }
+      },
+      "createdAt": "2024-03-05T07:45:00Z",
+      "updatedAt": "2024-06-12T08:20:00Z"
+    },
+    {
+      "id": 6,
+      "externalPolicyId": "EXT-POL-006",
+      "policyNumber": "POL-2024-00006",
+      "agencyId": 3,
+      "lobCode": "TRVL",
+      "premiumAmount": 320.00,
+      "policyStatus": "expired",
+      "effectiveDate": "2024-03-10T00:00:00Z",
+      "expirationDate": "2024-04-10T00:00:00Z",
+      "sourcePayload": {
+        "sourceSystem": "PolicyCenter",
+        "rawPolicyType": "Travel Insurance",
+        "syncVersion": "v1.0",
+        "additionalInfo": {
+          "destination": "Europe",
+          "travelersCount": 2
+        }
+      },
+      "createdAt": "2024-03-08T12:00:00Z",
+      "updatedAt": "2024-04-11T06:00:00Z"
+    },
+    {
+      "id": 7,
+      "externalPolicyId": "EXT-POL-007",
+      "policyNumber": "POL-2024-00007",
+      "agencyId": 4,
+      "lobCode": "AUTO",
+      "premiumAmount": 1800.00,
+      "policyStatus": "active",
+      "effectiveDate": "2024-04-01T00:00:00Z",
+      "expirationDate": "2025-04-01T00:00:00Z",
+      "sourcePayload": {
+        "sourceSystem": "PolicyCenter",
+        "rawPolicyType": "Commercial Auto",
+        "syncVersion": "v1.3",
+        "additionalInfo": {
+          "vehicleCount": 5,
+          "fleetType": "Delivery"
+        }
+      },
+      "createdAt": "2024-04-10T10:00:00Z",
+      "updatedAt": "2024-06-13T09:00:00Z"
+    },
+    {
+      "id": 8,
+      "externalPolicyId": "EXT-POL-008",
+      "policyNumber": "POL-2024-00008",
+      "agencyId": 4,
+      "lobCode": "PROP",
+      "premiumAmount": 5400.00,
+      "policyStatus": "active",
+      "effectiveDate": "2024-04-15T00:00:00Z",
+      "expirationDate": "2025-04-15T00:00:00Z",
+      "sourcePayload": {
+        "sourceSystem": "PolicyCenter",
+        "rawPolicyType": "Commercial Property",
+        "syncVersion": "v1.3",
+        "additionalInfo": {
+          "propertyType": "Warehouse",
+          "squareFootage": 12000
+        }
+      },
+      "createdAt": "2024-04-12T08:30:00Z",
+      "updatedAt": "2024-06-13T10:15:00Z"
+    },
+    {
+      "id": 9,
+      "externalPolicyId": "EXT-POL-009",
+      "policyNumber": "POL-2024-00009",
+      "agencyId": 5,
+      "lobCode": "LIFE",
+      "premiumAmount": 1500.00,
+      "policyStatus": "active",
+      "effectiveDate": "2024-05-01T00:00:00Z",
+      "expirationDate": "2044-05-01T00:00:00Z",
+      "sourcePayload": {
+        "sourceSystem": "PolicyCenter",
+        "rawPolicyType": "Whole Life",
+        "syncVersion": "v1.4",
+        "additionalInfo": {
+          "termYears": 20,
+          "beneficiaryCount": 3
+        }
+      },
+      "createdAt": "2024-05-18T11:30:00Z",
+      "updatedAt": "2024-06-14T07:45:00Z"
+    },
+    {
+      "id": 10,
+      "externalPolicyId": "EXT-POL-010",
+      "policyNumber": "POL-2024-00010",
+      "agencyId": 5,
+      "lobCode": "MARI",
+      "premiumAmount": 9800.00,
+      "policyStatus": "pending",
+      "effectiveDate": "2024-07-01T00:00:00Z",
+      "expirationDate": "2025-07-01T00:00:00Z",
+      "sourcePayload": {
+        "sourceSystem": "PolicyCenter",
+        "rawPolicyType": "Marine Cargo",
+        "syncVersion": "v1.4",
+        "additionalInfo": {
+          "cargoType": "Electronics",
+          "vesselCount": 3
+        }
+      },
+      "createdAt": "2024-05-20T14:00:00Z",
+      "updatedAt": "2024-06-14T09:30:00Z"
+    }
+  ]
+}
