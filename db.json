@@ -197,50 +197,6 @@
       },
       "createdAt": "2024-05-18T11:30:00Z",
       "updatedAt": "2024-06-14T07:45:00Z"
-    },
-    {
-      "id": 10,
-      "externalPolicyId": "EXT-POL-010",
-      "policyNumber": "POL-2024-00010",
-      "agencyId": 5,
-      "lobCode": "MARI",
-      "premiumAmount": 9800.00,
-      "policyStatus": "pending",
-      "effectiveDate": "2024-07-01T00:00:00Z",
-      "expirationDate": "2025-07-01T00:00:00Z",
-      "sourcePayload": {
-        "sourceSystem": "PolicyCenter",
-        "rawPolicyType": "Marine Cargo",
-        "syncVersion": "v1.4",
-        "additionalInfo": {
-          "cargoType": "Electronics",
-          "vesselCount": 3
-        }
-      },
-      "createdAt": "2024-05-20T14:00:00Z",
-      "updatedAt": "2024-06-14T09:30:00Z"
-    },
-    {
-      "id": 11,
-      "externalPolicyId": "EXT-POL-011",
-      "policyNumber": "POL-2024-00011",
-      "agencyId": 1,
-      "lobCode": "AUTO",
-      "premiumAmount": 1200.00,
-      "policyStatus": "active",
-      "effectiveDate": "2024-01-01T00:00:00Z",
-      "expirationDate": "2025-01-01T00:00:00Z",
-      "sourcePayload": {
-        "sourceSystem": "PolicyCenter",
-        "rawPolicyType": "Personal Auto",
-        "syncVersion": "v1.2",
-        "additionalInfo": {
-          "vehicleCount": 2,
-          "driverCount": 3
-        }
-      },
-      "createdAt": "2024-01-15T08:00:00Z",
-      "updatedAt": "2024-06-10T12:30:00Z"
-    },
+    }
   ]
 }
